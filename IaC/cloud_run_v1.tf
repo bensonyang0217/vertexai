@@ -5,7 +5,7 @@ provider "google" {
 }
 
 # 定義 Cloud Run 服務
-resource "google_cloud_run_service" "default" {
+resourcesss "google_cloud_run_service" "default" {
   name     = "cloudrun-srv"
   location = "us-central1"
 
