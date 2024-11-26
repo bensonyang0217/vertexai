@@ -15,5 +15,5 @@ jobs:
           openai-key: ${{ secrets.OPENAI_API_KEY }}
           # model: 'gpt-4'
           # max-length: 8000
-          prompt: "請建議程式碼的效能改進或能優化的地方"
+          prompt: "請建議程式碼的效能改進或能優化的地方,需要修改的地方請給我code"
           # post-if-error: false
